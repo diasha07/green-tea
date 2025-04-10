@@ -1,0 +1,346 @@
+@font-face {
+    font-family: inspiration;
+    src: url(PlushwieFont1-Regular_4.otf);
+}
+html{
+    margin: auto;
+    font-family: inspiration;
+    background-color: #f0f8ec;
+    scroll-behavior: smooth;
+}
+.kn:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 90%;
+    width: 0;
+    height: 2px; 
+    background-color: rgb(255, 191, 13); 
+    transition: width 0.5s; 
+}
+.kn:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    height: 2px;
+    background-color: #f0f8ec; 
+    transition: width 0.5s; 
+}
+.kn{
+    font-family: inspiration;
+    font-size: 5vw;
+    text-decoration: none;
+    color: #f0f8ec;
+    transition: 0.3s;
+    z-index: 100;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.up{
+    width: 100vw;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(63, 68, 58);
+    overflow: hidden;
+}
+.knopki{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    width:70vw ;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.chai:hover{
+   
+}
+.fon{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.big{
+    margin: 0 auto;
+    width: 100vw;
+    background-size:cover; 
+    opacity: 90%;
+}
+.naz{
+    font-size: 10vw;
+    position: absolute;
+    top: 0%;
+}
+.slogan{
+    font-size: 5vw;
+    position: absolute;
+    color: #f0f8ec;
+    left: 20%;
+    background-color:rgba(63, 68, 58, 0.412) ;
+    text-shadow: 2px 2px rgb(63, 68, 58);
+}
+.tea{
+    color: rgb(255, 191, 13);
+    text-shadow: 5px 5px rgb(63, 68, 58);
+    transition: 0.2s ease;
+}
+.tea:hover{
+    color: rgb(63, 68, 58);
+    text-shadow: 5px 5px rgb(255, 191, 13);
+}
+.zag1{
+    font-size: 7vw;
+    text-align: center;
+    color: rgb(255, 191, 13);
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80vw;
+}
+.zag1:before {
+    content: '';
+    display: block;
+    height: 1px; 
+    background: rgb(255, 191, 13); 
+    width: 10vw; 
+    margin: 0 auto 10px; 
+	transition: 1s;
+}
+.zag1:hover:before {
+    width: 25vw; 
+	transition: ease-out 1s; 
+}
+.zag1:after {
+    content: '';
+    display: block;
+    height: 1px; 
+    background: rgb(255, 191, 13);
+    width: 10vw;
+    margin: 10px auto 0; 
+	transition: 1s; 
+}
+.zag1:hover:after {
+    width: 25vw; 
+	transition: ease-out 1s;
+}
+.us{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    margin-top: 5vw;
+}
+.text{
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(63, 68, 58);
+}
+.a1{
+    background-color: rgb(63, 68, 58);
+    padding: 5% 0 0 5%;
+    transition: 0.3s;
+}
+.kar{
+    transition: 0.3s ease;
+}
+.kar:hover{
+    transform: rotate(-25deg);
+}
+.opis{
+    color: #f0f8ec;
+    font-size: 3vw;
+}
+.menuu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 5vw;
+    row-gap: 15vw;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 5vw;
+}
+.big3{
+    width: 98vw;
+    background-color:rgb(63, 68, 58) ;
+    padding-top: 1%;
+    padding-bottom: 15%;
+    margin-top: 3vw;
+    overflow: hidden;
+    height: fit-content;
+}
+.m1{
+  height: 30vw;
+}
+.opis_napit{
+    font-size: 4vw;
+    color: #f0f8ec;
+    text-align: center;
+}
+.izo1{
+    background: url(grass1.jpg); 
+    background-size: cover;
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+}
+.izo1:hover {
+    background: url(tea1.jpg); 
+    background-size: cover;
+}
+.izo2{
+    background: url(grass2.jpg); 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+    background-size: cover;
+}
+.izo2:hover {
+    background: url(tea2.jpg); 
+    background-size: cover;
+}
+.izo3{
+    background: url(grass3.jpg); 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+    background-size: cover;
+}
+.izo3:hover {
+    background: url(tea3.jpg); 
+    background-size: cover;
+}
+.izo4{
+    background: url(grass4.jpg); 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+    background-size: cover;
+}
+.izo4:hover {
+    background: url(tea4.jpg); 
+    background-size: cover;
+}
+.izo5{
+    background: url(grass5.jpg); 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+    background-size: cover;
+}
+.izo5:hover {
+    background: url(tea5.jpg); 
+    background-size: cover;
+}
+.izo6{
+    background: url(grass6.jpg); 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    transition: 0.5s ease;
+    background-size: cover;
+}
+.izo6:hover {
+    background: url(tea6.jpg); 
+    background-size: cover;
+}
+.gifka_img{
+    width: 7vw;
+    overflow: hidden;
+}
+.text2{
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(63, 68, 58);
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    
+}
+@keyframes box {
+    0% {
+        transform: translateX(-100%);
+      }
+    50%{
+        transform: translateX(0%);
+      }
+      100%{
+        transform: translateX(100%);
+      }
+    
+}
+footer{
+    overflow: hidden;
+}
+.cont{
+    width: 98vw;
+    height: fit-content;
+    background-color: rgb(63, 68, 58);
+    padding-top: 1%;
+    margin-top: 3vw;
+    padding-bottom: 5vw;
+    overflow: hidden;
+    height: fit-content;
+}
+.seti{
+    width: 30vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+    
+
+}
+.set{
+    width: 3vw;
+    transition: 0.2s;
+}
+.set:hover{
+filter: drop-shadow(0 0 5px rgba(255, 190, 13, 0.56));
+}
+.num{
+    text-align: center;
+    font-size: 3vw;
+    color: #f0f8ec;
+    margin-top: 5vw;
+    transition: 0.2s;
+}
+.num:hover{
+    filter: drop-shadow(0 0 5px #f0f8ec9d);
+}
+hr{
+    width: 70vw;
+    margin: auto;
+    margin-top: 3vw;
+}
+.end{
+    text-align: center;
+    font-size: 2vw;
+    color: #f0f8ec;
+    margin-top: 5vw;
+}
+
+
+
+
